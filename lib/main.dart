@@ -4,7 +4,12 @@ void main() => runApp(
       MaterialApp(
         home: Scaffold(
           appBar: AppBar(
-            title: Text('Style by faizi',style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22),),
+            title: Text('Style by Faizi',
+            style: TextStyle(
+              fontWeight: FontWeight.bold, 
+              fontSize: 22
+              ),
+              ),
             centerTitle: true,
             backgroundColor: const Color.fromARGB(255, 129, 96, 139),
           ),
